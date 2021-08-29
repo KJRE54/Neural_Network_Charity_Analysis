@@ -21,7 +21,7 @@ Th purpose of this analysis is to help the non-profit foundation, Alphabet Soup,
   
 **Original Model**
 
-![image](https://user-images.githubusercontent.com/79073778/131237079-ba9c6e76-870e-4286-bafb-2f3f8e41ebc8.png)
+![image](https://user-images.githubusercontent.com/79073778/131261617-aaf71f60-1e39-44f0-ba68-524a1acf325e.png)
 
 * I ran this model at least 6 times with changes to the dataset features or bucket bin measurement, the layers, the neurons, the activation functions and the epochs.  Listed are 3 Optimization steps taken to increase model performance:
  
