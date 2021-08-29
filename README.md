@@ -24,7 +24,7 @@ Th purpose of this analysis is to help the non-profit foundation, Alphabet Soup,
 ![image](https://user-images.githubusercontent.com/79073778/131261617-aaf71f60-1e39-44f0-ba68-524a1acf325e.png)
 
 
-* I ran this model at least 6 times with changes to the dataset features or bucket bin measurement, the layers, the neurons, the activation functions and the epochs.  Listed are 3 Optimization steps taken to increase model performance:
+* I ran this model at least 8 times with changes to the dataset features or bucket bin measurement, the layers, the neurons, the activation functions and the epochs.  Listed are 5 Optimization steps taken to try to increase model performance:
  
 ### Optimization 1
 Steps: Dropped columns (Affiliation, Classification, Special_Considerations); Node 1 = 100, Node 2 = 40; 1st & 2nd Layer = Tanh; Epochs = 130
@@ -52,3 +52,5 @@ Steps: Dropped columns (Income_Amt); Application bin < 500; Node 1 = 60, Node 2 
 
 
 ## Summary
+
+My 5 attempts at optimizing the deep learning model stayed pretty consistent for the loss and predictive accuracy.  But, none of the 4 optimizing attempts ever exceeded the original accuracy outcome or hit the 75% performance target.  I actually tried two attempts with 3 layers, but the loss and predictive accuracy was far worse than the two layers reaching a losa of 58% predictive accuracy of about 63%.  
