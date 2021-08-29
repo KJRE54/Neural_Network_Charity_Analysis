@@ -10,7 +10,7 @@
 
 ### Optimization 1
 
-![image](https://user-images.githubusercontent.com/79073778/131237106-6cd702b2-e198-468a-b0ea-6cf4375576d3.png)
+![image](https://user-images.githubusercontent.com/79073778/131237186-64363984-e3fa-4745-98b7-e2ae5fbffa9e.png)
 
 
 ### Optimization  2
