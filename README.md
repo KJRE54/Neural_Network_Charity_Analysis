@@ -53,4 +53,4 @@ Steps: Dropped columns (Income_Amt); Application bin < 500; Node 1 = 60, Node 2 
 
 ## Summary
 
-My 5 attempts at optimizing the deep learning model stayed pretty consistent for the loss and predictive accuracy.  But, none of the 4 optimizing attempts ever exceeded the original accuracy outcome or hit the 75% performance target.  I actually tried two attempts with 3 layers, but the loss and predictive accuracy was far worse than the two layers reaching a losa of 58% predictive accuracy of about 63%.  
+My 5 attempts at optimizing the deep learning model stayed pretty consistent for the loss and predictive accuracy.  But, none of the 4 optimizing attempts ever exceeded the original accuracy outcome or hit the 75% performance target.  I actually tried two attempts with 3 layers using leaky ReLu and linear activation functions in the 2nd and 3rd layers, but the loss and predictive accuracy was far worse than the two layers reaching a loss of 58% and predictive accuracy of about 63%.  
