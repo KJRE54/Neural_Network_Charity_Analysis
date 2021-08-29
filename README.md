@@ -27,11 +27,28 @@ Th purpose of this analysis is to help the non-profit foundation, Alphabet Soup,
  
 **Optimization 1**
 
-![image](https://user-images.githubusercontent.com/79073778/131237258-ad829a5c-2045-4f8d-a9c5-5a8e7dc23d92.png)
+![image](https://user-images.githubusercontent.com/79073778/131261714-d0fa659f-8205-4d06-bc64-15bc60b2d889.png)
 
 
-### Optimization  2
+### Optimization 2
 
+![image](https://user-images.githubusercontent.com/79073778/131261821-c3d7cbd1-0ceb-487e-8903-93ac744c6b52.png)
 
 
 ### Optimization 3
+
+![image](https://user-images.githubusercontent.com/79073778/131261981-02fa8219-8992-4e79-87e6-066498df0d1f.png)
+
+
+
+### Optimization 4
+
+![image](https://user-images.githubusercontent.com/79073778/131261993-374b72b8-7b72-4947-bdb5-9c130ec4235c.png)
+
+
+### Optimization 5
+
+![image](https://user-images.githubusercontent.com/79073778/131262039-80f535a9-3c76-4c78-8530-0b6d30c74e47.png)
+
+
+
