@@ -29,29 +29,34 @@ Th purpose of this analysis is to help the non-profit foundation, Alphabet Soup,
 ### Optimization 1
 Steps: Dropped columns (Affiliation, Classification, Special_Considerations); Node 1 = 100, Node 2 = 40; 1st & 2nd Layer = Tanh; 
 Epochs = 130
+
 ![image](https://user-images.githubusercontent.com/79073778/131261714-d0fa659f-8205-4d06-bc64-15bc60b2d889.png)
 
 
 ### Optimization 2
 Steps: Dropped columns (Affiliation, Classification, Special_Considerations); Node 1 = 100, Node 2 = 75; 1st & 2nd Layer = Linear; 
 Epochs = 200
+
 ![image](https://user-images.githubusercontent.com/79073778/131261821-c3d7cbd1-0ceb-487e-8903-93ac744c6b52.png)
 
 
 ### Optimization 3
 Steps: Dropped columns (Organization, Special_Considerations); Application bin < 700; Node 1 = 100, Node 2 = 45; 1st & 2nd Layer = ReLu; 
 Epochs = 100
+
 ![image](https://user-images.githubusercontent.com/79073778/131261981-02fa8219-8992-4e79-87e6-066498df0d1f.png)
 
 
 ### Optimization 4
 Steps: Dropped columns (Income_Amt, Special_Considerations); Application bin < 500; Node 1 = 30, Node 2 = 80; 1st & 2nd Layer = ReLu; 
 Epochs = 125
+
 ![image](https://user-images.githubusercontent.com/79073778/131261993-374b72b8-7b72-4947-bdb5-9c130ec4235c.png)
 
 
 ### Optimization 5
 Steps: Dropped columns (Income_Amt); Application bin < 500; Node 1 = 60, Node 2 = 20; 1st & 2nd Layer = ReLu; Epochs = 100
+
 ![image](https://user-images.githubusercontent.com/79073778/131262039-80f535a9-3c76-4c78-8530-0b6d30c74e47.png)
 
 
