@@ -27,22 +27,26 @@ Th purpose of this analysis is to help the non-profit foundation, Alphabet Soup,
 * I ran this model at least 8 times with changes to the dataset features or bucket bin measurement, the layers, the neurons, the activation functions and the epochs.  Listed are 5 Optimization steps taken to try to increase model performance:
  
 ### Optimization 1
-Steps: Dropped columns (Affiliation, Classification, Special_Considerations); Node 1 = 100, Node 2 = 40; 1st & 2nd Layer = Tanh; Epochs = 130
+Steps: Dropped columns (Affiliation, Classification, Special_Considerations); Node 1 = 100, Node 2 = 40; 1st & 2nd Layer = Tanh; 
+Epochs = 130
 ![image](https://user-images.githubusercontent.com/79073778/131261714-d0fa659f-8205-4d06-bc64-15bc60b2d889.png)
 
 
 ### Optimization 2
-Steps: Dropped columns (Affiliation, Classification, Special_Considerations); Node 1 = 100, Node 2 = 75; 1st & 2nd Layer = Linear; Epochs = 200
+Steps: Dropped columns (Affiliation, Classification, Special_Considerations); Node 1 = 100, Node 2 = 75; 1st & 2nd Layer = Linear; 
+Epochs = 200
 ![image](https://user-images.githubusercontent.com/79073778/131261821-c3d7cbd1-0ceb-487e-8903-93ac744c6b52.png)
 
 
 ### Optimization 3
-Steps: Dropped columns (Organization, Special_Considerations); Application bin < 700; Node 1 = 100, Node 2 = 45; 1st & 2nd Layer = ReLu; Epochs = 100
+Steps: Dropped columns (Organization, Special_Considerations); Application bin < 700; Node 1 = 100, Node 2 = 45; 1st & 2nd Layer = ReLu; 
+Epochs = 100
 ![image](https://user-images.githubusercontent.com/79073778/131261981-02fa8219-8992-4e79-87e6-066498df0d1f.png)
 
 
 ### Optimization 4
-Steps: Dropped columns (Income_Amt, Special_Considerations); Application bin < 500; Node 1 = 30, Node 2 = 80; 1st & 2nd Layer = ReLu; Epochs = 125
+Steps: Dropped columns (Income_Amt, Special_Considerations); Application bin < 500; Node 1 = 30, Node 2 = 80; 1st & 2nd Layer = ReLu; 
+Epochs = 125
 ![image](https://user-images.githubusercontent.com/79073778/131261993-374b72b8-7b72-4947-bdb5-9c130ec4235c.png)
 
 
@@ -53,4 +57,6 @@ Steps: Dropped columns (Income_Amt); Application bin < 500; Node 1 = 60, Node 2 
 
 ## Summary
 
-My 5 attempts at optimizing the deep learning model stayed pretty consistent for the loss and predictive accuracy.  But, none of the 4 optimizing attempts ever exceeded the original accuracy outcome or hit the 75% performance target.  I actually tried two attempts with 3 layers using leaky ReLu and linear activation functions in the 2nd and 3rd layers, but the loss and predictive accuracy was far worse than the two layers reaching a loss of 58% and predictive accuracy of about 63%.  
+My 5 attempts at optimizing the deep learning model stayed pretty consistent at 73% for the loss and predictive accuracy.  But, none of the 4 optimizing attempts ever exceeded the original analysis accuracy outcome of 74% or hit the predictive accuracy target of 75%.  I actually tried two attempts with 3 layers using leaky ReLu and linear activation functions in the 2nd and 3rd layers, but the loss and predictive accuracy was far worse with a loss of 58% and predictive accuracy of about 63% compared to the deep learning model with only two layers.  
+I attempted to run the model using the Random Forest Classifier. The outcome was the same for a predictive accuracy of 73.52% even trying it with different activation functions. This model using Random Forest Classifier did not meet the predictive requirement, either.  
+Therefore, I would **recommend** to use the original model as the predictive accuracy was closer to 75% than all the other model optimization attempts.
